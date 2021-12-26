@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import {default as text} from './constants'
+import ShowHide from './components/18.1/18.1';
+import Ex184 from './components/18.4/18.4';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App flexing-center">
+       <Ex184 />
     </div>
   );
 }
