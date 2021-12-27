@@ -1,8 +1,9 @@
 import React,{useState} from "react";
 import '../../utils/utils.css'
-const CheckBox=({arr})=>{
+const arr=[111]
+const CheckBox=({})=>{
     const [arr1,setArr1]=useState(arr)
-    
+    console.log(arr1===arr);
     const handleChange=(item)=>{
       
     }
